@@ -7,3 +7,6 @@ Semisal chrome kalian sering nggak responsif dan suspectnya karena abis ram, kal
 On Windows 10, you can open C:\Users\[username]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup by entering shell:startup after pressing Win+R. Put a .bat file there containing python.exe -u "C:\Users\[username]\Documents\code\OOM_killer\oom_killer.py" to run it on startup.
 
 Untuk proses background tanpa shell maka bisa menggunakan pythonw.exe -u "C:\Users\[username]\Documents\code\OOM_killer\OOM_killer.py" lalu save menggunakan nama .bat save ke C:\Users\[username]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+### Source
+https://github.com/CTimmerman/
