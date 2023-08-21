@@ -1,0 +1,13 @@
+[tool.pylint.messages_control]
+disable = [
+    "bad-continuation",
+    "broad-except",
+    "invalid-name",
+    "line-too-long",
+    "missing-function-docstring",
+    "mixed-indentation",
+    "multiple-imports",
+    "multiple-statements",
+    "pointless-string-statement",
+    "too-many-nested-blocks",
+]
